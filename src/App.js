@@ -28,7 +28,7 @@ class App extends Component {
            
 
              <PortFolio
-             image = 'img/portfolio/curriculum.png'
+             image = 'img/portfolio/cv.png'
              id ="3" />
 
              <PortFolio image = 'img/portfolio/game.png' />
