@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/reactPortFolio/static/css/main.86fa5c0b.chunk.css"
   },
   {
-    "revision": "5fcc38842da6af91f51e2fcb79a6f091",
+    "revision": "6e653419f63f54dd2d246f0213dc1237",
     "url": "/reactPortFolio/index.html"
   }
 ];
