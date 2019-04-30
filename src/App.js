@@ -10,6 +10,7 @@ import TextInput from './TextInput';
 import PopUp from './PopUp';
 import Lettres from './Lettres';
 import Cv from './Cv';
+import Link from  './Link'
 
 class App extends Component {
   render() {
@@ -28,10 +29,11 @@ class App extends Component {
            
 
              <PortFolio
-             image = 'img/portfolio/cv.png'
+             image = 'img/portfolio/cake.png'
              id ="3" />
 
-             <PortFolio image = 'img/portfolio/game.png' />
+             <PortFolio image = 'img/portfolio/game.png'
+             id = "2"/>
              <PortFolio image = 'img/portfolio/safe.png' />
              <PortFolio image = 'img/portfolio/cabin.png' />
 
@@ -111,19 +113,19 @@ class App extends Component {
         id = "1"
         ProjectName = "Project Name"
         imageName = "circus"
-        contenuTexte = "Salut les michtos" />
+        contenuTexte = "" />
 
       < PopUp 
         id = "2"
         ProjectName = "Project Name"
         imageName = "game"
-        contenuTexte = "Salut les michtos" />
+        contenuTexte = "dd" />
 
        < Cv 
         id = "3"
         ProjectName = "Project Name"
         imageName = "cv"
-        contenuTexte = "Salut les michtos" />
+        contenuTexte = "" />
 
 
 
